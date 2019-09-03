@@ -1,0 +1,2 @@
+NOTE:the mail id from which you're going to send the mail should be a gmail id and the 'Allow less secured apps' should be turned on in settings.
+one can find it here: https://myaccount.google.com›lesssecureapps

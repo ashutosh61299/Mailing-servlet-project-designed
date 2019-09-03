@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	
+}
+h1{
+	color: red;
+}
+
+.mail-box{
+	width: 700px;
+	height: 550px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;	
+	padding: 180px 30px;
+	
+}
+
+.avatar{
+	width: 150px;
+	height: 150px;
+	border-radius: 10%;
+	position: absolute;
+	top: -5%;
+	left: calc(50% - 100px);
+	
+	
+}
+
+.heading{
+	position: absolute;
+	left: calc(50% - 50px);
+	top: 110px;
+	left: calc(50% - 120px);
+	
+}
+
+.tb{
+	width: 500px;
+	border-radius: 20px;
+	
+}
+
+.compose{
+	height:100px;
+    width:600px;
+    overflow:scroll;
+	
+}
+	
+.button{
+	border-radius: 20px;
+	
+	
+}
+	
+.button:hover {
+  background-color: #000; /* Green */
+  color: white;	
+  transition-duration: 0.4s;
+}
+
+.sentmsg{
+	position: absolute;
+}

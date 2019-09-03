@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mailing servlet</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="mail-box">
+<img src="avatar.png" class="avatar">
+
+<h1 class="heading">ASHU MAIL</h1>
+<form action="send" method="POST" enctype="multipart/form-data">
+TO:
+<input class="tb" type="text" name="to" placeholder="Reciever's mail id">	
+<br>
+<br>
+FROM:
+<input class="tb" type="text" name="from" placeholder="Sender's mail id">
+<br>
+<br>
+PASSWORD:
+<input class="tb" type="password" name="pass" placeholder="Password">
+<br>
+<br>
+SUBJECT:
+<input class="tb" type="text" name="sub" placeholder="Enter Subject">
+<br>
+<br>
+COMPOSE MAIL:
+<br>
+<textarea class="compose" name="body" placeholder="Compose Mail"></textarea>
+<br>
+<br>
+<input class="button" type="file" name="file">
+<br>
+<br>
+<input class="button" type="submit" value="SEND->">
+
+
+
+
+</form>
+
+</div>
+
+</body>
+</html>
